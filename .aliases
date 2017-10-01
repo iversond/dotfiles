@@ -167,7 +167,7 @@ alias path='echo -e ${PATH//:/\\n}'
 # Git Aliases
 alias gs="git status"
 alias ga="git add ."
-alias gc="git commit"
+alias gc="git commit -S"
 alias gp="git push"
 alias gsho="git push origin"
 alias gllo="git pull origin"
