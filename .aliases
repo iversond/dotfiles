@@ -192,3 +192,6 @@ alias vsl="vagrant snapshot list"
 ## Jekyll Aliases
 alias jbuild="bundle exec jekyll build"
 alias jserve="bundle exec jekyll serve"
+
+## getMOSPatch
+alias mos="java -jar ~/Downloads/getMOSPatch.jar"
