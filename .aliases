@@ -195,3 +195,8 @@ alias jserve="bundle exec jekyll serve"
 
 ## getMOSPatch
 alias mos="java -jar ~/Downloads/getMOSPatch.jar"
+
+## Terraform
+alias tf="terraform"
+alias tfp="terraform plan"
+alias tfa="terraform apply"
