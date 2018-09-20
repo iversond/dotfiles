@@ -30,6 +30,9 @@ if ! fgrep -q '/usr/local/bin/bash' /etc/shells; then
   chsh -s /usr/local/bin/bash;
 fi;
 
+# Install YADM to support syncing keys
+brew install yadm 
+
 # Install `wget` with IRI support.
 brew install wget --with-iri
 
