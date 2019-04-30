@@ -205,3 +205,6 @@ alias tfa="terraform apply"
 
 ## DNS Cache
 alias flushdns="sudo killall -HUP mDNSResponder"
+
+## Showoff
+alias sos='showoff serve'
