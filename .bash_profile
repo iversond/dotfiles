@@ -63,3 +63,11 @@ export LDFLAGS="-L/usr/local/opt/ruby/lib"
 export CPPFLAGS="-I/usr/local/opt/ruby/include"
 export PKG_CONFIG_PATH="/usr/local/opt/ruby/lib/pkgconfig"
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+#tmuxinator
+source ~/.bin/tmuxinator.bash
+
+
+# Source Env Vars for Cloud Providers
+source ~/.bash_profile_aws
+source ~/.bash_profile_oci
