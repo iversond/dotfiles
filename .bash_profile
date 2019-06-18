@@ -71,3 +71,5 @@ source ~/.bin/tmuxinator.bash
 # Source Env Vars for Cloud Providers
 source ~/.bash_profile_aws
 source ~/.bash_profile_oci
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
