@@ -81,3 +81,10 @@ export PATH
 
 # Bitwarden
 source ~/.bw
+
+export PATH=/Users/dan/bin:$PATH
+
+[[ -e "/Users/dan/lib/oracle-cli/lib/python3.8/site-packages/oci_cli/bin/oci_autocomplete.sh" ]] && source "/Users/dan/lib/oracle-cli/lib/python3.8/site-packages/oci_cli/bin/oci_autocomplete.sh"
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+export GEM_PATH=~/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/

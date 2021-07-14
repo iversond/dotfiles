@@ -190,4 +190,12 @@
 [user]
 
 	email = dan@daniverson.com
-	signingkey = D85B9BE7F83EC50F
+	signingkey = AF362BB0B26FECD6
+
+[misc]
+
+lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+[http]
+	sslVerify = false
+[gpg]
+	program = gpg
