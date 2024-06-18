@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
 
 # Install command-line tools using Homebrew.
+
 
 # Make sure we’re using the latest Homebrew.
 brew update
@@ -25,10 +28,13 @@ brew install bash
 brew install bash-completion2
 
 # Switch to using brew-installed bash as default shell
-if ! fgrep -q '/usr/local/bin/bash' /etc/shells; then
-  echo '/usr/local/bin/bash' | sudo tee -a /etc/shells;
-  chsh -s /usr/local/bin/bash;
-fi;
+# if ! fgrep -q '/usr/local/bin/bash' /etc/shells; then
+#   echo '/usr/local/bin/bash' | sudo tee -a /etc/shells;
+#   chsh -s /usr/local/bin/bash;
+# fi;
+
+# Install Oh-My-Zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # Install YADM to support syncing keys
 brew install yadm 
@@ -44,7 +50,6 @@ brew install vim --with-override-system-vi
 brew install grep
 brew install openssh
 brew install screen
-brew install homebrew/php/php56 --with-gmp
 
 # Install font tools.
 brew tap bramstein/webfonttools
@@ -53,30 +58,30 @@ brew install sfnt2woff-zopfli
 brew install woff2
 
 # Install some CTF tools; see https://github.com/ctfs/write-ups.
-brew install aircrack-ng
-brew install bfg
-brew install binutils
-brew install binwalk
-brew install cifer
-brew install dex2jar
-brew install dns2tcp
-brew install fcrackzip
-brew install foremost
-brew install hashpump
-brew install hydra
-brew install john
-brew install knock
-brew install netpbm
-brew install nmap
-brew install pngcheck
-brew install socat
-brew install sqlmap
-brew install tcpflow
-brew install tcpreplay
-brew install tcptrace
-brew install ucspi-tcp # `tcpserver` etc.
-brew install xpdf
-brew install xz
+# brew install aircrack-ng
+# brew install bfg
+# brew install binutils
+# brew install binwalk
+# brew install cifer
+# brew install dex2jar
+# brew install dns2tcp
+# brew install fcrackzip
+# brew install foremost
+# brew install hashpump
+# brew install hydra
+# brew install john
+# brew install knock
+# brew install netpbm
+# brew install nmap
+# brew install pngcheck
+# brew install socat
+# brew install sqlmap
+# brew install tcpflow
+# brew install tcpreplay
+# brew install tcptrace
+# brew install ucspi-tcp # `tcpserver` etc.
+# brew install xpdf
+# brew install xz
 
 # Install other useful binaries.
 brew install ack
