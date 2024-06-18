@@ -191,6 +191,7 @@
 
 	email = dan@daniverson.com
 	signingkey = AF362BB0B26FECD6
+	name = Dan Iverson
 
 [misc]
 
@@ -199,3 +200,5 @@ lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
 	sslVerify = false
 [gpg]
 	program = gpg
+[init]
+	defaultBranch = main

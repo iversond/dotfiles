@@ -23,3 +23,6 @@ export PATH=$PATH:$GOROOT/bin
 /Applications/Python\ 3.8/Update\ Shell\ Profile.command 
 
 export PATH=$PATH:/Users/dan/.gem/ruby/2.6.0/bin
+
+#Homebrew
+export HOMEBREW_NO_GOOGLE_ANALYTICS=true

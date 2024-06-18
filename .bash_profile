@@ -88,3 +88,5 @@ export PATH=/Users/dan/bin:$PATH
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 export GEM_PATH=~/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/
+# Podman
+export DOCKER_HOST='unix:///Users/dan/.local/share/containers/podman/machine/qemu/podman.sock'
